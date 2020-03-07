@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidebar a:hover {
+    color: #fd5d01;
+}
+  
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #343A40;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+ }
+  
+.openbtn:hover {
+    background-color: rgb(253, 77, 7);
+}
+  
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+.navbar{
+      border-bottom: #008ed6 2px solid;
+    }
+.imgages{
+    height: 500px;
+}
+#explore-section .fa{
+	color: #fff;
+	background: #333;
+	padding: 4px;
+	border-radius: 5px;
+	font-size: 30px;
+}
+.nav-pills .nav-link {
+	padding: 12px 182px;
+	border: solid 1px blue;
+	margin: 8px 15px;
+	background: #343A40;
+}
+/* about start */
+
+.about p {
+	text-align: center;
+	font-size: 20px;
+	max-width: 700px;
+	padding: 10px 323px;
+}
+.about-top {
+	width: 400px;
+	font-size: 20px;
+	border: 1px solid #000;
+	text-align: center;
+	display: inline-block;
+	margin: 10px;
+	padding: 0px 11px;
+	height: 200px;
+}
+.about-top:hover{
+    box-shadow: 0px 8px 8px 0px #000;
+}
+.about-top i{
+    font-size: 25px;
+    margin: 10px;
+}
+.about-top h2{
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.about-top p{
+    font-size: 16px;
+    padding: 0px 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.about-top:hover i,
+.about-top:hover h2{
+    color: #ff5321;
+}
+/* about end */
+#map{
+    margin-top: 10px;
+    height: 580px;
+}
+#icon{
+    padding: 8px;
+    font-size: 20px;
+    background: #fff;
+}
+
+
+
